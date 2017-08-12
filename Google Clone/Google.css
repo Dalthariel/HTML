@@ -1,0 +1,110 @@
+header {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	text-align: right;
+
+}
+
+header ul li {
+	display: inline-block;
+	margin: 15px;
+}
+
+* {
+font-family: arial;
+margin: 0px;
+}
+
+a {
+	color: grey;
+	font-size: 12px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration-style: underline;
+}
+
+#signin {
+background-color: blue;
+color: white;
+}
+
+#content {
+	margin-top: 200px !important;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#google-logo {
+	clear: both;
+	text-align: center;
+}
+
+#search {
+	clear: both;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#searchbox {
+	width: 1200px !important;
+	height: 15px;
+	border: 1px solid #aaaaaa;
+	padding: 5px;
+	margin: 0px 0px 5px 0px;
+
+}
+
+#Buttons {
+	margin-top: 30px;
+	clear: both;
+}
+
+.button {
+	border-radius: 2px;
+	width: 140px;
+	height: 40px;
+	position: relative;
+	font-size: .8em;
+	text-align: center;
+	color: grey;
+	font-weight: 600;
+	margin: 0px 5px 5px 5px;
+	border: 0px solid white;
+	background-color: #efefef;
+}
+
+footer {
+	position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+  background-color: #efefef;
+}
+
+span {margin: 10px}
+
+#leftfoot {
+	float: left;
+	bottom: 8px;
+	text-align: left;
+}
+
+#rightfoot {
+	float: right;
+	bottom: 8px;
+	text-align: right;
+}

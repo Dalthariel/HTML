@@ -1,0 +1,76 @@
+* {
+	font-family: "Museo Sans", Arial, Sans-Serif;
+	font-color: white;
+	background-color: #400080;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+body {
+
+}
+
+li {
+	text-decoration: none;
+}
+
+header {
+	
+}
+
+#logo {
+	max-width: 150px;
+	margin-left: 120px;
+	margin-right: 15px;
+	margin-top: 15px;
+}
+
+#headleft {
+	top: 0px;
+	text-align: center;
+	float: left;
+	font-size: 1em;
+}
+
+#headright {
+	float: right;
+	font-size: .8em;
+}
+
+content {
+
+}
+
+#buttons {
+	margin: auto;
+	padding: 5px;
+	width: 50%;
+	border: 3px solid green;
+}
+
+.button.hover {
+	transition: .5s
+	border: white;
+
+}
+
+footer {
+	font-size: .8em;
+}
+
+#foot {
+	flex-wrap: wrap;
+	background-color: transparent;
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+#flag {
+	max-width: 30px;
+	max-height: 20px;
+}

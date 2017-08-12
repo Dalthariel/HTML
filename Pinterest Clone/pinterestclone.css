@@ -1,0 +1,49 @@
+* {
+	font-family: cursive, arial;
+}
+
+body {
+
+}
+
+header {
+	border-color: grey;
+
+}
+
+#headerUL {
+	display: inline-block;
+}
+
+content {
+	column-count: 5;
+	border: 0px
+	text-align: center;
+}
+
+.column {
+	width: 19%;
+	margin: .5%;
+	border-style: none;
+	float: left;
+	padding: 0px
+	text-align: center;
+}
+
+div {
+
+}
+
+p {
+	text-align: center;
+}
+
+img {
+	max-width: 100%
+
+}
+
+img.hover {
+	opacity: 0.7;
+}
+
